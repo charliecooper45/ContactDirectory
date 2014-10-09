@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ContactDirectory
 {
-    public partial class Form1 : Form
+    public partial class DirectoryForm : Form
     {
-        public Form1()
+        public DirectoryForm()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnShowAboutBox(object sender, EventArgs e)
+        {
+            MessageBox.Show("Canyon Aeroad 2012");
         }
     }
 }
